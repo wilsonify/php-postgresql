@@ -1,6 +1,6 @@
 services:
   php:
-    image: php:8.2-fpm
+    image: php:8.2.35-fpm
     volumes:
       - ./src:/var/www/html:rw
     restart: unless-stopped
