@@ -1,4 +1,5 @@
 <?php
+/*
 
 class ReflectionParameter implements Reflector
 {
@@ -20,6 +21,7 @@ class ReflectionParameter implements Reflector
 
 } 
 
+*/
 $method = new ReflectionMethod("corporatedrone", "setTieColor");
    $parameters = $method->getParameters();
    foreach ($parameters as $parameter) echo $parameter->getName()."<br />";

@@ -6,7 +6,7 @@
 
    while ($user = fscanf($fh, "%d-%d-%d")) {
       list ($part1,$part2,$part3) = $user;
-      ...
+      // ...
    }
 
    fclose($fh);

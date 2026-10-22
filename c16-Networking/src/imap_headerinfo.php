@@ -2,7 +2,9 @@
 
    // Designate a mailbox and establish a connection
    $mailserver = "{mail.example.com:143/imap/notls}INBOX/Staff/CEO";
-   $ms = imap_open($mailserver,"jason","mypswd");
+   $imapUser = "your_imap_user";
+   $imapPassword = "your_imap_password";
+   $ms = imap_open($mailserver, $imapUser, $imapPassword);
 
    // Retrieve message headers
    $headers = imap_headers($ms);

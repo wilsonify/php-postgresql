@@ -2,7 +2,8 @@
 Search the online resource database:<br />
 <form action="fulltextsearch.php" method="post">
 Keywords:<br />
-<input type="text" name="keywords" size="20" maxlength="40" value="" /><br />
+<label for="keywords">Keywords:</label><br />
+<input id="keywords" type="text" name="keywords" size="20" maxlength="40" value="" /><br />
 <input type="submit" value="Search!" />
 </form>
 </p>

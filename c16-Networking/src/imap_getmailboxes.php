@@ -3,7 +3,9 @@
    $mailserver = "{imap.example.com:143/imap/notls}";
 
    // Establish a connection
-   $ms = imap_open($mailserver,"jason","mypswd");
+   $imapUser = "your_imap_user";
+   $imapPassword = "your_imap_password";
+   $ms = imap_open($mailserver, $imapUser, $imapPassword);
 
    // Retrieve a single-level mailbox listing
    $mbxs = imap_getmailboxes($ms, $mailserver, "INBOX/Staff/%");

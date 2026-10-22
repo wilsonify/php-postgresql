@@ -1,18 +1,26 @@
 <form action="netaddr.php" method="post">
 <p>
 IP Address:<br />
-<input type="text" name="ip[]" size="3" maxlength="3" value="" />.
-<input type="text" name="ip[]" size="3" maxlength="3" value="" />.
-<input type="text" name="ip[]" size="3" maxlength="3" value="" />.
-<input type="text" name="ip[]" size="3" maxlength="3" value="" />
+<label for="ip_1">Octet 1</label>
+<input id="ip_1" type="text" name="ip[]" size="3" maxlength="3" value="" />.
+<label for="ip_2">Octet 2</label>
+<input id="ip_2" type="text" name="ip[]" size="3" maxlength="3" value="" />.
+<label for="ip_3">Octet 3</label>
+<input id="ip_3" type="text" name="ip[]" size="3" maxlength="3" value="" />.
+<label for="ip_4">Octet 4</label>
+<input id="ip_4" type="text" name="ip[]" size="3" maxlength="3" value="" />
 </p>
 
 <p>
 Subnet Mask:<br />
-<input type="text" name="sm[]" size="3" maxlength="3" value="" />.
-<input type="text" name="sm[]" size="3" maxlength="3" value="" />.
-<input type="text" name="sm[]" size="3" maxlength="3" value="" />.
-<input type="text" name="sm[]" size="3" maxlength="3" value="" />
+<label for="sm_1">Octet 1</label>
+<input id="sm_1" type="text" name="sm[]" size="3" maxlength="3" value="" />.
+<label for="sm_2">Octet 2</label>
+<input id="sm_2" type="text" name="sm[]" size="3" maxlength="3" value="" />.
+<label for="sm_3">Octet 3</label>
+<input id="sm_3" type="text" name="sm[]" size="3" maxlength="3" value="" />.
+<label for="sm_4">Octet 4</label>
+<input id="sm_4" type="text" name="sm[]" size="3" maxlength="3" value="" />
 </p>
 
 <input type="submit" name="submit" value="Calculate" />
@@ -27,7 +35,7 @@ Subnet Mask:<br />
       $ip = ip2long($ip);
 
       // Concatenate the netmask form components and convert to IPv4 format
-      $netmask = implode('.',$_POST['nm'];
+      $netmask = implode('.',$_POST['sm']);
       $netmask = ip2long($netmask);
 
       // Calculate the network address

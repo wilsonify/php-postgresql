@@ -1,8 +1,8 @@
 <?php
    $ldapHost = "ldap://ad.example.com";
    $ldapPort = "389";
-   $ldapUser = "ldapreadonly";
-   $ldapPswd = "iloveldap";
+   $ldapUser = "your_ldap_user";
+   $ldapPswd = "your_ldap_password";
 
    $ldapconn = ldap_connect($ldapHost, $ldapPort) 
                or die("Can't establish LDAP connection");

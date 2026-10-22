@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
    <head>
       <title><?php echo "Welcome to my site!";?></title>
    </head>

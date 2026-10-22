@@ -31,9 +31,9 @@ class subscribe {
                return 1;
             }
         }
-     } catch (Exception $e) {
-        echo $e->getMessage();
      } catch (InvalidEmailException $e) {
+        echo $e->getMessage();
+     } catch (Exception $e) {
         echo $e->getMessage();
      }
 

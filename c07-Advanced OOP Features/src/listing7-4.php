@@ -1,4 +1,5 @@
 <?php
+/*
 
 class ReflectionClass implements Reflector
 {
@@ -51,6 +52,7 @@ class ReflectionClass implements Reflector
 
 }
 
+*/
   $class = new ReflectionClass("corporatedrone");
 
    # Retrieve and output class methods

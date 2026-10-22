@@ -9,6 +9,6 @@
         $tax += 4;
     }
     calculate_cost($cost,$tax);
-    echo "Tax is: ". $tax*100."<br />";
+    echo "Tax is: ". $tax*100 . "<br />";
     echo "Cost is: $". $cost."<br />";
 ?>

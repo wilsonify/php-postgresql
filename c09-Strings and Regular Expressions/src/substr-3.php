@@ -1,4 +1,4 @@
 <?php
    $car = "1944 Ford";
-   $yr = echo substr($car, 2, -5);
+   $yr = substr($car, 2, -5);
 ?>

@@ -1,4 +1,5 @@
 <?php
+/*
 
 class ReflectionProperty implements Reflector
 {
@@ -25,4 +26,5 @@ class ReflectionProperty implements Reflector
 } 
 
 
+*/
 ?>

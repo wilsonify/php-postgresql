@@ -22,7 +22,7 @@
       echo "<a href=\"$url\">Previous Page</a> ";
    }
    // Create the 'next' link
-   if ($totalrows > ($recordstart + $pagesize) {
+   if ($totalrows > ($recordstart + $pagesize)) {
       $next = $recordstart + $pagesize;
       $url = $_SERVER['PHP_SELF']."?recordstart=$next";
       echo "<a href=\"$url\">Next Page</a>";

@@ -2,7 +2,8 @@
 Search the employee database:<br />
 <form action="simplesearch.php" method="post">
 Last Name:<br />
-<input type="text" name="lastname" size="20" maxlength="40" value="" /><br />
+<label for="lastname">Last Name:</label><br />
+<input id="lastname" type="text" name="lastname" size="20" maxlength="40" value="" /><br />
 <input type="submit" value="Search!" />
 </form>
 </p>

@@ -7,4 +7,5 @@
    } else {
       echo "<p>The entered phone number does not match our records. 
                       Perhaps you've recently moved?</p>" ;
+   }
 ?>

@@ -1,8 +1,8 @@
 <?php
    // Open an IMAP connection
-   $user = "jason";
-   $pswd = "mypswd";
-   $ms = imap_open("{imap.example.com:143}INBOX",$user, $pswd);
+   $user = "your_imap_user";
+   $imapPassword = "your_imap_password";
+   $ms = imap_open("{imap.example.com:143}INBOX", $user, $imapPassword);
 
    // Retrieve total number of messages
    $nummsgs = imap_num_msg($ms);

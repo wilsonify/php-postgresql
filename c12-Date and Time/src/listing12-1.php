@@ -3,7 +3,7 @@
 
    $month = new Calendar_Month_Weekdays(2006, 4, 0);
 
-   $month->build();7
+   $month->build();
    echo "<table cellspacing='5'>\n";
    echo "<tr><td class='monthname' colspan='7'>April, 2006</td></tr>";
    echo "<tr><td>Su</td><td>Mo</td><td>Tu</td><td>We</td>

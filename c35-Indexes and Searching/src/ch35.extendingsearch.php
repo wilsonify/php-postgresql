@@ -2,7 +2,8 @@
 Search the employee database:<br />
 <form action="searchextended.php" method="post">
 Keyword:<br />
-<input type="text" name="keyword" size="20" maxlength="40" value="" /><br />
+<label for="keyword">Keyword:</label><br />
+<input id="keyword" type="text" name="keyword" size="20" maxlength="40" value="" /><br />
 Field:<br />
 <select name="field">
    <option value="">Choose field:</option>

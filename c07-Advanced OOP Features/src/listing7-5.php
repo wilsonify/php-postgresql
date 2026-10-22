@@ -1,4 +1,5 @@
 <?php
+/*
 
 class ReflectionMethod extends ReflectionFunction
 {
@@ -46,6 +47,7 @@ class ReflectionMethod extends ReflectionFunction
 
 }
 
+*/
    $method = new ReflectionMethod("corporatedrone", "setTieColor");
 
    $isPublic = $method->isPublic() ? "Yes" : "No";

@@ -3,7 +3,7 @@
    $results = sqlite_query($sqldb, "SELECT empid, name FROM employee");
 
    // Choose a random number found within the range of total returned rows
-   $random = rand(0,sqlite_num_rows($results)-1);
+   $random = random_int(0,sqlite_num_rows($results)-1);
 
    // Move the pointer to the row specified by the random number
    sqlite_seek($results, $random);
